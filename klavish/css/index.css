@@ -1,0 +1,109 @@
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    font-family: "El Messiri", sans-serif;
+    background-color: rgb(9, 47, 25);
+    font-size: 21px;
+    font-weight: 300;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0, 112px;
+}
+
+
+header {
+    margin: 10px 0px 30px 0px;
+    }
+    
+    .header-inner {
+    
+        display: flex;
+        align-items: center ;
+        justify-content: space-around;
+    }
+    
+    nav a {
+        font-family: 'Proxima Nova', sans-serif;
+        color:black;
+        margin-right: 50px;
+        text-decoration: none;
+    
+        transition: color .3s ease;
+    }
+    
+    nav a:hover {
+    
+        color: gold;
+    
+    }
+    
+    nav a :last-of-type {
+        margin-right: 0;
+    }
+
+    .seans-tite {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .seans-tite p {
+        font-size: 42px;
+        font-weight: 800;
+        color: #000;
+    
+        margin-right: 45px;
+        margin-left: 45px;
+    }
+    
+
+
+:root {
+    --color-light: rgb(9, 47, 25);
+    --color-green: #fff;
+    --color-unaccent: #808080;
+    --color-medium: rgb(9, 47, 25);
+    --color-dark: #a1a1a1;
+
+    --spacing-small: 10px;
+    --spacing-medium: 15px;
+    --spacing-large: 30px;
+
+    --border-radius: 13px;
+    --linear-gradient: linear-gradient(to right, #e2f87c, #d6f567, #c8f151, #b9ee38, #a8eb12);
+	--box-shadow: 
+		0 16px 24px 2px rgba(33,37,41,.02), 
+		0 6px 30px 5px rgba(33,37,41,.04), 
+		0 8px 10px -5px rgba(33,37,41,.1);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-dark);
+    border-radius: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--color-white);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 1.7;
+    background-color: var(--color-light);
+}
